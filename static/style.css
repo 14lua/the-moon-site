@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Lora Variable;
+    src: url('fonts/Lora/Lora-Variable.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Textura Libera Black;
+    src: url('fonts/Textura\ Libera\ Expanded/TexturaLiberaX-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Textura Libera Bold;
+    src: url('fonts/Textura\ Libera\ Expanded/TexturaLiberaX-Bold.otf') format('opentype');
+}
+
+div {
+    outline: 1px solid red;
+}
+
+body {
+    background-color: #090909;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    background-color: #090909;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    line-height: 1em;
+    margin-top: 1rem;
+}
+
+.subheader-left {
+    align-content: center;
+}
+
+.subheader-right {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 3em;
+}
+
+.main-title {
+    font-family: 'Textura Libera Black';
+    font-size: 80px;
+    padding-bottom: 1px;
+    margin: 0;
+}
+
+.sub-title {
+    font-family: Textura Libera Bold;
+    margin: 0;
+}
+
+#moon {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+
+.link-row a {
+    font-size: 12px;
+    font-family: Lora Variable;
+    font-weight: 100;
+    text-decoration: none;
+    color: #b0b0b0;
+    margin-right: 1em;
+    margin-top: 0;
+}
+
+.link-row a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    color: white;
+}
