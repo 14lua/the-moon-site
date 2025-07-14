@@ -13,9 +13,7 @@
   src: url('fonts/Textura\ Libera\ Expanded/TexturaLiberaX-Bold.otf') format('opentype');
 }
 
-div {
-  outline: 1px solid red;
-}
+div {}
 
 body {
   background-color: black;
